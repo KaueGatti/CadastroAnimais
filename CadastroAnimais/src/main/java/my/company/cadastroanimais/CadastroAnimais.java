@@ -11,6 +11,6 @@ package my.company.cadastroanimais;
 public class CadastroAnimais {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }
