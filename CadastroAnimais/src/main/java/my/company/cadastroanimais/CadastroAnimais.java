@@ -4,8 +4,7 @@
 
 package my.company.cadastroanimais;
 
-import my.company.cadastroanimais.View.JanelaCadastro;
-
+import my.company.cadastroanimais.View.CadastroView;
 /**
  *
  * @author kaueg
@@ -13,7 +12,7 @@ import my.company.cadastroanimais.View.JanelaCadastro;
 public class CadastroAnimais {
 
     public static void main(String[] args) {
-        JanelaCadastro janelaCadastro = new JanelaCadastro();
+        CadastroView janelaCadastro = new CadastroView();
         janelaCadastro.setLocationRelativeTo(null);
     }
 }
