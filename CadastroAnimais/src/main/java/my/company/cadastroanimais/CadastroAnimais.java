@@ -5,6 +5,7 @@
 package my.company.cadastroanimais;
 
 import my.company.cadastroanimais.View.CadastroView;
+import my.company.cadastroanimais.View.MenuInicialView;
 /**
  *
  * @author kaueg
@@ -12,7 +13,7 @@ import my.company.cadastroanimais.View.CadastroView;
 public class CadastroAnimais {
 
     public static void main(String[] args) {
-        CadastroView janelaCadastro = new CadastroView();
-        janelaCadastro.setLocationRelativeTo(null);
+        MenuInicialView janelaPrincipal = new MenuInicialView();
+        janelaPrincipal.setLocationRelativeTo(null);
     }
 }
